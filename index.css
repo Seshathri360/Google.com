@@ -1,0 +1,131 @@
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+
+    
+}
+.navbar a{
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.left{
+    display: flex;
+    /* border: 1px solid; */
+    justify-content:space-between;
+    width: 100px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    /* border: 1px solid;   */
+    width: 1300px;
+    padding: 5px 15px;
+    align-items: center;
+
+}
+.right i{
+    border-radius: 40px;
+}
+.right img{
+    border-radius: 40px;
+    padding: 5px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.icon{
+    flex-direction: column;
+    width: 100%;
+    height: 60vh; 
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icon img {
+    max-width: 100%;             
+    max-height: 100%;           
+}
+.search-box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 600px;
+    /* max-width: 600x; */
+    background-color: #f2f2f2;  /* Light background for the search box */
+    border-radius: 24px ;
+    padding: 10px;    
+    flex-direction: row;
+    margin-top: 10px;
+}
+.search-box i {
+    font-size: 20px;            
+    margin: 0 8px;              
+    cursor: pointer;          
+}
+
+.search-box input {
+    flex-grow: 1;               
+    border: none;               
+    background-color: transparent; 
+    font-size: 16px;            
+    padding: 8px 12px;          
+    border-radius: 18px;        
+}
+
+.search-box input:focus {
+    outline: none;              
+}
+.lens{
+    width: 40px;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+.button button{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+.button button:hover{
+    border: 1px solid;
+}
+.women h5,a{
+    text-decoration: none;
+
+}
+.women h5,a:hover{
+    text-decoration: underline;
+
+}
+h5{
+    margin-top: 30px;
+    text-decoration: none;
+}
+.footer {
+    background-color:  #f2f2f2; ;
+    height: 40px;
+    margin-top: 30px;
+}
+.terms{
+    background-color:  #f2f2f2; ;
+    height: 40px;
+}
+.terms{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.terms a{
+    text-decoration: none;
+
+}
+.terms a:hover{
+    text-decoration: underline;
+
+}
